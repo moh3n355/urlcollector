@@ -33,6 +33,7 @@ $ python3 urlcollector.py -h
 | Flag | Description | Example |
 |---|---|---|
 | `--thread` | number of threads passed to gau | `urlcollector.py example.com --thread 50` |
+| `--parallel` | Run waybackurls and gau concurrently instead of sequentially | `urlcollector.py example.com ----parallel` |
 | `--uro` | dedupe/normalize the final URL list with uro (if not set, duplicates are kept) | `urlcollector.py example.com --uro` |
 | `--nice` | strip URLs ending in noisy static extensions (js, css, images, fonts, archives, etc.) | `urlcollector.py example.com --nice` |
 | `-o`, `--output` | filename to write the final results to | `urlcollector.py example.com -o urls.txt` |
