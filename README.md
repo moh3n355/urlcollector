@@ -53,7 +53,7 @@ If any required tool is missing, `urlcollector.py` prints the exact install comm
 
 From source:
 ```
-$ git clone https://github.com/YOUR_USERNAME/urlcollector.git
+$ git clone https://github.com/moh3n355/urlcollector.git
 $ cd urlcollector
 $ python3 urlcollector.py -h
 ```
